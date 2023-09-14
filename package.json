@@ -25,7 +25,8 @@
     "lint":"yarn solhint 'contracts/*.sol'",
     "lint:fix":"yarn solhint 'contracts/*.sol' --fix",
     "format":"yarn prettier --write .",
-    "coverage":"yarn hardhat coverage"
+    "coverage":"yarn hardhat coverage",
+    "deploy":"yarn hardhat deploy"
   },
   "name": "hardhat-fund-me-fcc",
   "version": "1.0.0",
